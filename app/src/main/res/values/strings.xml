@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DroidWright</string>
+    <string name="home_tab">Home</string>
+    <string name="scripts_tab">Scripts</string>
+    <string name="about_tab">About</string>
+    <string name="status">Status</string>
+    <string name="logs">Logs</string>
+    <string name="permissions">Permissions</string>
+    <string name="automation_running">Automation Running</string>
+    <string name="automation_idle">Automation Idle</string>
+    <string name="granted">Granted</string>
+    <string name="denied">Denied</string>
+    <string name="execute_script">Execute Script</string>
+    <string name="script_executed">Script Executed</string>
+    <string name="stop_automation">Stop Automation</string>
+    <string name="accessibility_service_description">Allow UI Automator to interact with interface elements for automation.</string>
+    <string name="notification_channel_automation_name">Automation controls</string>
+    <string name="notification_channel_automation_description">Manage running automation scripts</string>
+    <string name="notification_title_running">Running: %1$s</string>
+    <string name="notification_title_paused">Paused: %1$s</string>
+    <string name="notification_title_default">Automation</string>
+    <string name="notification_content_task">Current task: %1$s</string>
+    <string name="notification_content_default">Automation in progress</string>
+    <string name="notification_action_pause">Pause</string>
+    <string name="notification_action_resume">Resume</string>
+    <string name="notification_action_stop">Stop</string>
+    <string name="overlay_title_default">Automation</string>
+    <string name="overlay_status_running">Running</string>
+    <string name="overlay_status_paused">Paused</string>
+    <string name="overlay_toggle_content_description">Pause or resume automation</string>
+    <string name="overlay_stop_content_description">Stop automation</string>
+</resources>

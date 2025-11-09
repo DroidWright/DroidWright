@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone">
+
+    <FrameLayout
+        android:id="@+id/swipe_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start">
+
+        <View
+            android:id="@+id/swipe_line"
+            android:layout_width="200dp"
+            android:layout_height="4dp"
+            android:background="@drawable/touch_indicator_swipe_line" />
+
+    </FrameLayout>
+
+</FrameLayout>

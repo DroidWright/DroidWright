@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/overlayContainer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:background="@drawable/overlay_background"
+    android:elevation="8dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginEnd="12dp">
+
+        <TextView
+            android:id="@+id/overlayScriptName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="@string/overlay_title_default" />
+
+        <TextView
+            android:id="@+id/overlayStatusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="@string/overlay_status_running" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/overlayToggleButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/overlay_toggle_content_description"
+        android:src="@android:drawable/ic_media_pause"
+        android:tint="@android:color/white" />
+
+    <ImageButton
+        android:id="@+id/overlayStopButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/overlay_stop_content_description"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:tint="@android:color/white" />
+</LinearLayout>
